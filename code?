@@ -1,0 +1,8 @@
+import scratchapi
+scratch = scratchapi.ScratchUserSession('catkitty12021', 'qwertyabc123', True)
+while True:
+  a = ScratchUserSession.cloud.get_var('☁ mode', 544468790)
+  b = ScratchUserSession.cloud.get_var('☁ var', 544468790)
+  c = ScratchUserSession.cloud.get_var('☁ var2', 544468790)
+  if a = 1:
+    Users.append(b)
