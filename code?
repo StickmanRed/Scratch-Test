@@ -1,5 +1,5 @@
 import scratchapi
-scratch = scratchapi.ScratchUserSession('catkitty12021', 'qwertyabc123', True)
+scratch = scratchapi.ScratchUserSession('StickRed_Test', 'AlanBecker', remember_password=True)
 while True:
   a = ScratchUserSession.cloud.get_var('☁ mode', 543069795)
   b = ScratchUserSession.cloud.get_var('☁ var', 543069795)
@@ -24,3 +24,4 @@ while True:
         d = d + 1
     c = Pass[d]
     ScratchUserSession.cloud.set_var('☁ var', c, 543069795)
+  
