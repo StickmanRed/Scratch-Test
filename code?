@@ -1,8 +1,26 @@
 import scratchapi
 scratch = scratchapi.ScratchUserSession('catkitty12021', 'qwertyabc123', True)
 while True:
-  a = ScratchUserSession.cloud.get_var('☁ mode', 544468790)
-  b = ScratchUserSession.cloud.get_var('☁ var', 544468790)
-  c = ScratchUserSession.cloud.get_var('☁ var2', 544468790)
-  if a = 1:
+  a = ScratchUserSession.cloud.get_var('☁ mode', 543069795)
+  b = ScratchUserSession.cloud.get_var('☁ var', 543069795)
+  c = ScratchUserSession.cloud.get_var('☁ var2', 543069795)
+  if a == 1:
     Users.append(b)
+    Real_Users.append(b)
+    Pass.append(c)
+  if a == 2:
+    b = ScratchUserSession.cloud.get_var('☁ var', 543069795)
+    d == 0
+    if b in Users:
+      while Users[d] != b:
+        d = d + 1
+    c = Users[d]
+    ScratchUserSession.cloud.set_var('☁ var', c, 543069795)
+  if a == 3:
+    b = ScratchUserSession.cloud.get_var('☁ var', 543069795)
+    d = 0
+    if b in Pass:
+      while Pass[d] != b:
+        d = d + 1
+    c = Pass[d]
+    ScratchUserSession.cloud.set_var('☁ var', c, 543069795)
