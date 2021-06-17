@@ -38,5 +38,4 @@ while True:
       ScratchUserSession.cloud.set_var('☁ var2', b, 543069795)
     else:
       ScratchUserSession.cloud.set_var('☁ mode', 100, 543069795)
-      
   ScratchUserSession.cloud.set_var('☁ mode', 0, 543069795)
