@@ -27,5 +27,16 @@ while True:
       if (c == 5):
         break
     c = ScratchUserSession.cloud.get_var('☁ var', 543069795)
-    Passwords[d] = c
+    Pass[d] = c
+  if a == 10:
+    c = ScratchUserSession.cloud.get_var('☁ var', 543069795)
+    if c in list:
+      d = RealUsers.index(c)
+      c = Users[d]
+      b = Pass[d]
+      ScratchUserSession.cloud.set_var('☁ var', c, 543069795)
+      ScratchUserSession.cloud.set_var('☁ var2', b, 543069795)
+    else:
+      ScratchUserSession.cloud.set_var('☁ mode', 100, 543069795)
+      
   ScratchUserSession.cloud.set_var('☁ mode', 0, 543069795)
