@@ -1,5 +1,4 @@
 import scratchapi
-import time
 scratch = scratchapi.ScratchUserSession('StickRed_Test', 'AlanBecker', remember_password=True)
 while True:
   a = ScratchUserSession.cloud.get_var('☁ mode', 543069795)
@@ -11,15 +10,22 @@ while True:
     Pass.append(c)
   if a == 2:
     b = ScratchUserSession.cloud.get_var('☁ var', 543069795)
-    d = ScratchUserSession.cloud.get_var('☁ var', 543069795)
-    if b in Users:
-      while Users[d] != b:
-        d = d + 1
-    c = Users[d]
+    d = RealUsers.index(b)
+    ScratchUserSession.cloud.set_var('☁ mode', 4, 543069795)
     while True:
-      a = ScratchUserSession.cloud.get_var('☁ mode', 543069795)
-      if (a = 100):
+      c = ScratchUserSession.cloud.get_var('☁ mode', 543069795)
+      if (c == 5):
         break
-    a = ScratchUserSession.cloud.get_var('☁ var', 543069795)
-    Users[d] = 
-    ScratchUserSession.cloud.set_var('☁ var', c, 543069795)
+    c = ScratchUserSession.cloud.get_var('☁ var', 543069795)
+    Users[d] = c
+  if a == 3:
+    b = ScratchUserSession.cloud.get_var('☁ var', 543069795)
+    d = RealUsers.index(b)
+    ScratchUserSession.cloud.set_var('☁ mode', 4, 543069795)
+    while True:
+      c = ScratchUserSession.cloud.get_var('☁ mode', 543069795)
+      if (c == 5):
+        break
+    c = ScratchUserSession.cloud.get_var('☁ var', 543069795)
+    Passwords[d] = c
+  ScratchUserSession.cloud.set_var('☁ mode', 0, 543069795)
